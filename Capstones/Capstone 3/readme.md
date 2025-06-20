@@ -6,6 +6,8 @@ This project focuses on building a sentiment analysis pipeline for Amazon produc
 
 Using a dataset of 4,000,000 Amazon reviews with binary sentiment labels, the project compares **Logistic Regression** and **DistilBERT** models, with the transformer model significantly outperforming classical approaches in predictive accuracy.
 
+Recommendation:
+Use DistilBERT as the production model for sentiment classification due to its superior accuracy and F1 performance. However, retain the logistic regression model as a lightweight alternative for fallback scenarios or interpretability-driven applications.
 ---
 
 ## Dataset
