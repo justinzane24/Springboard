@@ -1,16 +1,14 @@
 # Sentiment Analysis on Amazon Product Reviews
 
-## Executive Summary
+## Overview
 
 This project focuses on building a sentiment analysis pipeline for Amazon product reviews to classify each review as either **positive** or **negative**. The objective is to explore the effectiveness of both traditional machine learning models and transformer-based language models (e.g., DistilBERT) in sentiment classification tasks.
 
 Using a dataset of 4,000,000 Amazon reviews with binary sentiment labels, the project compares **Logistic Regression** and **DistilBERT** models, with the transformer model significantly outperforming classical approaches in predictive accuracy.
 
-Recommendation:
-Use DistilBERT as the production model for sentiment classification due to its superior accuracy and F1 performance. However, retain the logistic regression model as a lightweight alternative for fallback scenarios or interpretability-driven applications.
 ---
 
-## Dataset
+## Data
 
 - **Source**: Amazon product review dataset (binary sentiment: 1 for positive, 0 for negative)
 - **Size**: 4,000,000 labeled reviews
@@ -27,7 +25,7 @@ Use DistilBERT as the production model for sentiment classification due to its s
 
 ---
 
-## Approach
+## Methodology
 
 ### Exploratory Data Analysis (EDA)
 
@@ -62,12 +60,17 @@ Use DistilBERT as the production model for sentiment classification due to its s
 
 ---
 
-## Conclusions
+## Insights
 
 - Transformer models (like DistilBERT) provide superior performance on sentiment classification tasks, especially when fine-tuned on task-specific data.
 - Traditional models are simpler and faster but may miss subtleties in language.
 - Clean preprocessing, class balance, and robust evaluation are essential for reliable NLP models.
 - Thoughtful subset sampling allowed large‑scale transformer fine‑tuning despite hardware limits.
+
+---
+
+## Recommendation  
+Use DistilBERT as the production model for sentiment classification due to its superior accuracy and F1 performance. However, retain the logistic regression model as a lightweight alternative for fallback scenarios or interpretability-driven applications.
 
 ---
 
