@@ -76,7 +76,7 @@ Use DistilBERT as the production model for sentiment classification due to its s
 
 ## Future Work
 
-- Expand to **multi‑class** (1–5 stars) sentiment.  
+- Expand to multi‑class (1–5 stars) sentiment.  
 - Incorporate review metadata (helpfulness votes, product category).  
 - Experiment with larger transformers (RoBERTa, DeBERTa).  
 - Deploy via a real‑time API (FastAPI or Flask).
